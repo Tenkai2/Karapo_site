@@ -1,0 +1,139 @@
+*{
+    font-family: toppan-bunkyu-mincho-pr6n, serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+}
+.header_img{
+    position: absolute;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.maintitle{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.maintitle img{
+    width: 10vw;
+    height: auto;
+    
+}
+ul.header-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    right: -10vh;
+}
+ul.header-menu li{
+    margin-right: 3em;
+}
+ul.header-menu a{
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+    width: calc(100vh/5);
+}
+ul.header-menu a::after{
+    content: '';
+	width: 0;
+	transition: all 0.5s;
+	border-bottom: 3px solid #707070;
+	display: block;
+}
+ul.header-menu a:hover::after{
+    width: 70%;
+	border-bottom: 3px solid #707070;
+}
+.body_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-title{
+    width: calc(100vw/5);
+    margin-left: 5em;
+    margin-top: 7em;
+}
+.middle-title{
+    width: calc(100vw/5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.line{
+    border: 1px solid #707070;
+    background-color: #707070;
+    width: 0.5px;
+    height: 8em;
+}
+.right-title{
+    margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw/5);
+    height: auto;
+    text-align: right;
+}
+.About{
+    margin-top: 5em;
+}
+.About h1{
+    position: relative;
+    left: 40vw;
+    width: 30%;
+}
+.About h2{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    margin-left: 48vw;
+}
+.About p{
+    text-align: center;
+}
+.height{
+    height: 20em;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact{
+    text-align: center;
+}
+.SNS{
+    text-align: center;
+}
+.SNS i{
+    margin-top: 1em;
+    padding-bottom: 1rem;
+}
+.adimg_t{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #707070;
+}
+.twitter-timeline{
+    
+}
+
+blockquote.instagram-media{
+    border: 3px solid #707070;
+    width: 50vw;
+    height: auto;
+
+}
+.adimg{
+    border: 3px solid #707070;
+}
