@@ -112,28 +112,30 @@ footer{
 }
 .SNS{
     text-align: center;
+    display: flex;
 }
-.SNS i{
-    margin-top: 1em;
-    padding-bottom: 1rem;
+.SNS1, .SNS2{
+    width: calc(100vw/3);
+    height: auto;
+    margin-right: 3em;
+    margin-left: 3em; 
+    max-height: 30em;
+}
+.SNS h3{
+    font-size: 3vw;
 }
 .adimg_t{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px solid #707070;
-}
-.twitter-timeline{
-    
+    border: 1px solid #707070;
 }
 
-blockquote.instagram-media{
+
+/* blockquote.instagram-media{
     border: 3px solid #707070;
     width: 50vw;
     height: auto;
 
-}
-.adimg{
-    border: 3px solid #707070;
-}
+} */
