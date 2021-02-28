@@ -43,12 +43,12 @@ ul.header-menu a::after{
     content: '';
 	width: 0;
 	transition: all 0.5s;
-	border-bottom: 3px solid #707070;
+	border-bottom: 3px solid #333333;
 	display: block;
 }
 ul.header-menu a:hover::after{
     width: 70%;
-	border-bottom: 3px solid #707070;
+	border-bottom: 3px solid #333333;
 }
 .body_title{
     display: flex;
@@ -59,6 +59,7 @@ ul.header-menu a:hover::after{
     width: calc(100vw/5);
     margin-left: 5em;
     margin-top: 7em;
+    line-height: 2.5em;
 }
 .middle-title{
     width: calc(100vw/5);
@@ -69,8 +70,8 @@ ul.header-menu a:hover::after{
     justify-content: center;  
 }
 .line{
-    border: 1px solid #707070;
-    background-color: #707070;
+    border: 1px solid #333333;
+    background-color: #333333;
     width: 0.5px;
     height: 8em;
 }
@@ -109,27 +110,30 @@ footer{
 }
 .contact{
     text-align: center;
+    line-height: 5em;
 }
 .SNS{
     text-align: center;
     display: flex;
 }
-.SNS1, .SNS2{
+.SNS1{
     width: calc(100vw/3);
     height: auto;
     margin-right: 3em;
     margin-left: 3em; 
-    max-height: 30em;
+}
+.twitter-timeline{
+    height: 0%;
 }
 .SNS h3{
     font-size: 3vw;
 }
-.adimg_t{
+.adimg{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #707070;
+    border: 1px solid #333333;
 }
 
 
